@@ -5,7 +5,7 @@
 	<ThingDef ParentName="DrugBase">
 		<defName>VBE_Kombucha</defName>
 		<label>kombucha tea</label>
-		<description>A sugary tea left out to ferment, after fermenting the end product is a sweet and sour, sometimes even naturally fizzy drink known as kombucha. Praised for health benefits, though some remain skeptical.</description>
+		<description>A sugary tea left out to ferment, after fermenting the end product is a sweet and sour, sometimes even naturally fizzy drink known as kombucha. Praised for health benefits, though some remain skeptical. Kombucha acts as a home remedy against the flu, reducing its severity by 5%.</description>
 		<graphicData>
 			<texPath>Things/Items/Drinks/VBE_KombuchaTea</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -70,7 +70,7 @@
 		<defName>VBE_DrankKombuchaTea</defName>
 		<label>drank kombucha tea</label>
 		<makesSickThought>false</makesSickThought>
-		<description>Tannins naturally found in tea once metabolised increases the stimuli in ones nervous system, suppressing ones urge to sleep, as well as boosting ones immune system. Increases immunity gain speed by 15% and provides 10% reduction in rest fall rate for 5 hours. Kombucha tea reduces the effects of Diabetes if present.</description>
+		<description>Tannins naturally found in tea once metabolised increases the stimuli in ones nervous system, suppressing ones urge to sleep, as well as boosting ones immune system. Increases immunity gain speed by 15% and provides 10% reduction in rest fall rate for 5 hours. Kombucha tea reduces the effects of Diabetes if present. Kombucha acts as a home remedy against the flu, reducing its severity by 5%.</description>
 		<tendable>false</tendable>
 		<isBad>false</isBad>
 		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
@@ -82,8 +82,8 @@
 				<thoughtDefs>
 					<li>VBE_DrankKombuchaTea</li>
 				</thoughtDefs>
-				<hediffReduction>VCE_Diabetes</hediffReduction>
-				<reductionAmount>0.03</reductionAmount>
+				<hediffReduction>Flu</hediffReduction>
+				<reductionAmount>0.05</reductionAmount>
 			</li>
 		</comps>
 		<stages>

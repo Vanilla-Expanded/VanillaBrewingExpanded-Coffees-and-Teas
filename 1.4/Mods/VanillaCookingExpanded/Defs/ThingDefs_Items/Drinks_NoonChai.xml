@@ -5,7 +5,7 @@
 	<ThingDef ParentName="DrugBase">
 		<defName>VBE_NoonChai</defName>
 		<label>noon chai</label>
-		<description>An ancient Kashmiri tea mixing tea leaves, a pinch of salt and baking soda, which results in an striking pink beverage that is famous for being not only delicious but also healthy for the body. Very efficient for treating those with a high blood pressure.</description>
+		<description>An ancient Kashmiri tea mixing tea leaves, a pinch of salt and baking soda, which results in an striking pink beverage that is famous for being not only delicious but also healthy for the body. Used for treating muscle parasites.</description>
 		<graphicData>
 			<texPath>Things/Items/Drinks/VBE_NoonChai</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -71,11 +71,11 @@
 		<defName>VBE_DrankNoonChai</defName>
 		<label>drank noon chai</label>
 		<makesSickThought>false</makesSickThought>
-		<description>Tannins naturally found in tea once metabolised increases the stimuli in ones nervous system, suppressing ones urge to sleep, as well as boosting ones immune system. Increases immunity gain speed by 15% and provides 10% reduction in rest fall rate for 5 hours. Noon chai reduces the effects of High Blood Pressure if present.</description>
+		<description>Tannins naturally found in tea once metabolised increases the stimuli in ones nervous system, suppressing ones urge to sleep, as well as boosting ones immune system. Increases immunity gain speed by 15% and provides 10% reduction in rest fall rate for 5 hours. Used for treating muscle parasites.</description>
 		<tendable>false</tendable>
 		<isBad>false</isBad>
 		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
-		<hediffClass>HediffWithComps</hediffClass>
+		<hediffClass>VanillaBrewingExpanded.Hediff_AntiMuscleParasites</hediffClass>
 		<initialSeverity>1.0</initialSeverity>
 		<maxSeverity>1.0</maxSeverity>
 		<comps>
@@ -83,8 +83,7 @@
 				<thoughtDefs>
 					<li>VBE_DrankNoonChai</li>
 				</thoughtDefs>
-				<hediffReduction>VCE_HighBloodPressure</hediffReduction>
-				<reductionAmount>0.03</reductionAmount>
+				
 			</li>
 		</comps>
 		<stages>
