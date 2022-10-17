@@ -75,7 +75,7 @@
 		<tendable>false</tendable>
 		<isBad>false</isBad>
 		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
-		<hediffClass>HediffWithComps</hediffClass>
+		
 		<hediffClass>VanillaBrewingExpanded.Hediff_AntiInfections</hediffClass>
 		<initialSeverity>1.0</initialSeverity>
 		<maxSeverity>1.0</maxSeverity>
