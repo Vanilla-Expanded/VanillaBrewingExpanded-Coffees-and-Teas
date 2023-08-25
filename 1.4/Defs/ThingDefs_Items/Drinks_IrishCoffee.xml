@@ -56,11 +56,13 @@
 					<hediffDef>AlcoholTolerance</hediffDef>
 					<severity>0.02</severity>
 					<divideByBodySize>true</divideByBodySize>
+					<multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
 				</li>				
 				<li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>VBE_CaffeineTolerance</hediffDef>
 					<severity>0.016</severity>
 					<divideByBodySize>true</divideByBodySize>
+					<multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
 				</li> 
 			</outcomeDoers>
 		</ingestible>

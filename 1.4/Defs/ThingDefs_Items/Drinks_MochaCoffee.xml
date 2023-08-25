@@ -49,6 +49,7 @@
 					<hediffDef>VBE_CaffeineTolerance</hediffDef>
 					<severity>0.016</severity>
 					<divideByBodySize>true</divideByBodySize>
+					<multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
 				</li> 
 			</outcomeDoers>
 		</ingestible>
