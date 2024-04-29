@@ -71,8 +71,8 @@
 					<li>ToolCabinet</li>
 				</linkableFacilities>
 			</li>
-			<li>
-				<compClass>CompReportWorkSpeed</compClass>
+			<li Class="CompProperties_ReportWorkSpeed">
+				<workSpeedStat>WorkTableWorkSpeedFactor</workSpeedStat>
 			</li>
 			
 		</comps>
