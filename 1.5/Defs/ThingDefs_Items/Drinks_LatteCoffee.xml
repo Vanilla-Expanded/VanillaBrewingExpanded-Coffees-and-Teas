@@ -59,6 +59,7 @@
 			<li Class="CompProperties_Drug">
 				<chemical>VBE_Caffeine</chemical>
 				<addictiveness>0.0065</addictiveness>
+				<teetotalerCanConsume>true</teetotalerCanConsume>
 				<minToleranceToAddict>0.25</minToleranceToAddict>
 				<existingAddictionSeverityOffset>0.22</existingAddictionSeverityOffset>
 				<needLevelOffset>0.9</needLevelOffset>
