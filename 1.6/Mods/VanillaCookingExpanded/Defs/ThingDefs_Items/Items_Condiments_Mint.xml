@@ -33,7 +33,7 @@
 		  </mergeCompatibilityTags>
 		</ingredient>
 		<modExtensions>
-			<li Class="AnimalBehaviours.AnimalStatExtension">
+			<li Class="VEF.AnimalBehaviours.AnimalStatExtension">
 				
 				<statToAdd>
 					<li>VCE_CondimentEffects</li>
