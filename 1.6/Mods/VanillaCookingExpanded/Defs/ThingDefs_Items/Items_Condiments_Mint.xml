@@ -26,6 +26,8 @@
 		<ingestible>
 			<preferability>NeverForNutrition</preferability>
 			<specialThoughtAsIngredient>VCE_ConsumedMintLeaves</specialThoughtAsIngredient>
+			<optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+			<foodType>Processed</foodType>
 		</ingestible>
 		<ingredient>
 		  <mergeCompatibilityTags>
