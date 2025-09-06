@@ -57,12 +57,14 @@
 					<severity>0.02</severity>
 					<divideByBodySize>true</divideByBodySize>
 					<multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
+					<toleranceChemical>Alcohol</toleranceChemical>
 				</li>				
 				<li Class="IngestionOutcomeDoer_GiveHediff">
 					<hediffDef>VBE_CaffeineTolerance</hediffDef>
 					<severity>0.016</severity>
 					<divideByBodySize>true</divideByBodySize>
 					<multiplyByGeneToleranceFactors>true</multiplyByGeneToleranceFactors>
+					<toleranceChemical>VBE_Caffeine</toleranceChemical>
 				</li> 
 			</outcomeDoers>
 		</ingestible>
@@ -137,7 +139,7 @@
 		<validWhileDespawned>true</validWhileDespawned>
 		<stages>
 			<li>
-				<label>Live Now, Sleep Later</label>
+				<label>Live now, sleep later</label>
 				<description>That coffee hit the spot, now let’s get some work done.</description>
 				<baseMoodEffect>4</baseMoodEffect>
 			</li>
