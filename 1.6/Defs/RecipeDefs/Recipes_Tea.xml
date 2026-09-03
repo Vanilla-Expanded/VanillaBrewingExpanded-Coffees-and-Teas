@@ -52,9 +52,9 @@
 	
 	<RecipeDef>
 		<defName>VBE_MakeBlackTea</defName>
-		<label>make black tea</label>
-		<description>Make a particularly bitter tea cut with creamy milk, wakes one up a bit and relaxes one's mind.</description>
-		<jobString>Making black tea.</jobString>
+		<label>make breakfast tea</label>
+		<description>Make a particularly bitter tea softened with creamy milk. A proper morning brew that wakes one up and helps cure minor ailments.</description>
+		<jobString>Making breakfast tea.</jobString>
 		<workSkill>Cooking</workSkill>
 		<workSpeedStat>CookSpeed</workSpeedStat>
 		<workAmount>600</workAmount>

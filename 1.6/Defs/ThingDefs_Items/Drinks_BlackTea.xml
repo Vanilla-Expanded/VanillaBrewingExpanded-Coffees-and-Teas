@@ -4,8 +4,8 @@
 
 	<ThingDef ParentName="DrugBase">
 		<defName>VBE_BlackTea</defName>
-		<label>black tea</label>
-		<description>A particularly bitter tea cut with creamy milk, wakes one up and helps cure ailments.</description>
+		<label>breakfast tea</label>
+		<description>A particularly bitter tea softened with creamy milk. A proper morning brew that wakes one up and helps cure minor ailments.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt;\n - This was called "black tea" until the British tea police under the command of Samuel Streamer intervened.</description>
 		<graphicData>
 			<texPath>Things/Items/Drinks/VBE_BlackTea</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
@@ -59,8 +59,8 @@
 		<durationDays>0.2</durationDays>
 		<stages>
 			<li>
-				<label>An inspiring Cup</label>
-				<description>A delightfully intense cup of black tea really brightens the day.</description>
+				<label>an inspiring cup</label>
+				<description>A delightfully intense cup of breakfast tea really brightens the day.</description>
 				<baseMoodEffect>5</baseMoodEffect>
 			</li>
 		</stages>	
@@ -69,7 +69,7 @@
 	
 	<HediffDef>
 		<defName>VBE_DrankBlackTea</defName>
-		<label>drank black tea</label>
+		<label>drank breakfast tea</label>
 		<makesSickThought>false</makesSickThought>
 		<description>Tannins naturally found in tea once metabolised increases the stimuli in ones nervous system, suppressing ones urge to sleep, as well as boosting ones immune system. Increases immunity gain speed by 20% and provides 15% reduction in rest fall rate for 5 hours.</description>
 		<tendable>false</tendable>
