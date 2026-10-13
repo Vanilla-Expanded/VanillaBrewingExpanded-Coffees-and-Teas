@@ -15,6 +15,14 @@
 		<prerequisites>			
 			<li>Brewing</li>
 		</prerequisites>
+		<generalRules>
+  <rulesStrings>
+    <li>subject->the art of pressure</li>
+    <li>subject_story->revolutionized the brewing of coffee and tea with the introduction of the espresso machine, extracting richer flavors through pressurized water</li>
+    <li>subject_story->transformed morning rituals and social gatherings with the allure of quick, robust beverages</li>
+    <li>subject_gerund->elevating the coffee and tea experience to new heights of taste and aroma</li>
+  </rulesStrings>
+</generalRules>
 	</ResearchProjectDef>
 
 
