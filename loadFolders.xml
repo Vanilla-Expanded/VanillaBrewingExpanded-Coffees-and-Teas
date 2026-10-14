@@ -1,10 +1,5 @@
 <loadFolders>
-	<v1.4>
-		<li>/</li>
-		<li>1.4</li>
-		<li IfModActive="VanillaExpanded.VPlantsE">1.4/Mods/VanillaPlantsExpanded</li>
-		<li IfModActive="VanillaExpanded.VCookE">1.4/Mods/VanillaCookingExpanded</li>
-	</v1.4>
+	
 	<v1.5>
 		<li>/</li>
 		<li>1.5</li>
@@ -17,4 +12,10 @@
 		<li IfModActive="VanillaExpanded.VPlantsE">1.6/Mods/VanillaPlantsExpanded</li>
 		<li IfModActive="VanillaExpanded.VCookE">1.6/Mods/VanillaCookingExpanded</li>
 	</v1.6>
+	<v1.7>
+		<li>/</li>
+		<li>1.6</li>
+		<li IfModActive="VanillaExpanded.VPlantsE">1.6/Mods/VanillaPlantsExpanded</li>
+		<li IfModActive="VanillaExpanded.VCookE">1.6/Mods/VanillaCookingExpanded</li>
+	</v1.7>
 </loadFolders>
